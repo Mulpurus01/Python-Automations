@@ -1,7 +1,7 @@
 import logging
 
 #------------------------------------------------------------------------METHOD STARTS
-def createLogger(loggerName, logFileName, level=logging.INFO)
+def createLogger(loggerName, logFileName, level=logging.INFO):
   logger=logging.getLogger(loggerName)                    #Creating logger by giving name
   formatting=logging.Formatter(%(message)s')              #Message format to write into logger
   createLogFile=logging.FileHandler(logFileName,mode='w') #Giving log file name & mode='a' for append file
