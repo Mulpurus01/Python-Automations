@@ -8,7 +8,7 @@
 #! Give the Session IDE_TIME at line 22 in minutes, currently it's 11 minutes
 #! File Name chagnes required at line 21, 22, 23
 #! Create virtual environment for this file to run, use below commands
-#! 1. python -m venev <Environment Name> #--> To create environment with given Name
+#! 1. python -m venv <Environment Name> #--> To create environment with given Name
 #! 2. <Environment Name>\Scripts\activate #--> To start the environment
 #! 3. deactivate #--> To stop  the environment
 
@@ -45,7 +45,7 @@ def showPopUp(message):
     label=Label(root,text=popUpBody,justify='left',padx=10,pady=10)
     label.pack()
     def on_ok():
-        root.destory()
+        root.destroy()
         if 'MULPURUS: You\'re inactive' not in message:
             exit(message)
     button=Button(root,text='OK',command=on_ok)
