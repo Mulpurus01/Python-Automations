@@ -1,6 +1,6 @@
 #This code is used to validate whether the XML is having the exempted list of values or not in the given sub node. If the values are not in exemption list get their mobile number.
 #The XML is present as a single line in the input file, each ine is considered as one XML HUMAN DATA
-#!USECASE: To all HUMANS MOBILENUMBER from file whose MARKSs & GRADEs from any DEGREE are in the excusion list
+#!USECASE: To get all HUMANS MOBILENUMBER from file whose MARKSs & GRADEs from any DEGREE are not in the excusion list
 ###Below is the XML Layout EX: Human Details
 
 # <HUMAN>-->ROOT_TAG_NAME
